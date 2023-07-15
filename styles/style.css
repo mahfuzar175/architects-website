@@ -5,7 +5,17 @@
 *{
     font-family: 'Work Sans', sans-serif;
 }
-
+.btn-primary{
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 20px 24px;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
 
 /* header styles */
 header{
@@ -38,7 +48,7 @@ nav li a{
 
 /* banner styles */
 .banner-content{
-    max-width: 800px;
+    max-width: 860px;
     text-align: center;
     margin: 0 auto;
 }
@@ -51,4 +61,31 @@ nav li a{
     color:#727272;
     font-size: 1rem;
     font-weight: 400;
+}
+.banner img{
+    margin-top: 40px;
+    width: 100%;
+}
+
+
+
+/* responsive media quary */
+/* mobile devices */
+@media screen and (max-width: 576px){
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
+
+/* medium devices */
+@media screen and (min-width: 576px) and (max-width: 992px){
+    header{
+        padding: 40px;
+    }
+    nav{
+        flex-direction: column;
+    }
 }
