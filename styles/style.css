@@ -112,6 +112,7 @@ main{
     display: flex;
     margin-top: 130px;
     gap: 140px;
+    margin: 20px;
  }
  .features .section-titile{
     border-left: 5px solid #FF900E;
