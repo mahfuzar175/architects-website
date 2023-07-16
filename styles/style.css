@@ -83,6 +83,7 @@ main{
 .teams-container{
     display: flex;
     align-items: center;
+    padding: 20px;
     
 
 }
@@ -109,6 +110,7 @@ main{
 /* facts style */
 .facts{
     margin-bottom: 180px;
+    padding: 20px;
 }
 .facts-card-container{
     display: flex;
@@ -175,7 +177,7 @@ main{
 
 /* medium devices */
 @media screen and (min-width: 576px) and (max-width: 992px){
-    header, .facts{
+    header{
         padding: 40px;
     }
     .facts-card-container{
